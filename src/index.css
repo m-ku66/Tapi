@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(235, 61, 61);
+  border-radius: 100px;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.default-text {
+  font-family: 'Inter', sans-serif;
+}
+
+.hover-btn {
+  padding: 0.6% 2%;
+  transition: 0.3s;
+}
+
+.hover-btn:hover {
+  color: white;
+  /* padding: 0.65% 2.2%; */
+}
+
+.hover-btn:hover p {
+  color: white;
+}
+
+.nav {
+  transition: 0.5s;
+}
+
+.nav:hover {
+  color: red;
+}
