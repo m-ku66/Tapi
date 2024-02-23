@@ -60,7 +60,7 @@ const Section4 = () => {
                 <div data-aos="fade-right" data-aos-duration="1000" className='tablet:w-[350px] medium:w-[480px] h-fit'>
                     <h1 className='phone:text-center tablet:text-left mb-[5%] text-white default-text font-[600] text-[3rem] leading-tight'><span className='text-rose-600'>CONTACT</span> US</h1>
                     <p className='phone:text-center tablet:text-left text-white default-text font-[200] text-[1rem] mb-[5%]'>For any further inquiries relating Tapi and its specs or investment, either fill out this form or contact us directly at:</p>
-                    <p className='phone:text-center tablet:text-left text-white default-text font-[200] text-[0.8rem]'>Gmail | Other Contact Info</p>
+                    <p className='phone:text-center tablet:text-left text-white default-text font-[200] text-[0.8rem]'>franklinstreetinvestments@gmail.com | 910-922-3170</p>
                 </div>
                 <div className='absolute phone:top-[35%] tablet:top-[10%] phone:right-[5%] tablet:right-[1%] pr-[8%] phone:w-[80%] tablet:w-[40%] h-fit'>
                     <form ref={form} onSubmit={sendEmail} className='flex flex-col' id='form'>

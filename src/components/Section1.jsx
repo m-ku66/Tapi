@@ -69,11 +69,11 @@ const Section1 = () => {
                         <img className='cursor-pointer' src="/logo.png" alt="logo" />
                     </div>
 
-                    <div className={navLinkStyle}>
+                    {/* <div className={navLinkStyle}>
                         <p className='nav cursor-pointer select-none font-[200] default-text text-white mr-[50%]'>Home</p>
                         <p className='nav cursor-pointer select-none font-[200] default-text text-white mr-[50%]'>About</p>
                         <p className='nav cursor-pointer select-none font-[200] default-text text-white mr-[50%]'>Contact</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* this has to change on mobile view */}
@@ -94,9 +94,9 @@ const Section1 = () => {
                                 <p className='font-[400]'>Watch Demo Video&nbsp;&nbsp;</p>
                                 <img src={isHovered ? "/ui/vid-logo-w.svg" : "/ui/vid-logo.svg"} alt="video-logo" />
                             </div>
-
+                            
                             <div className='cursor-pointer flex w-fit h-full hover-btn outline outline-[1px] outline-rose-600 hover:outline-[white]'>
-                                <p className='font-[400] text-rose-600'>Learn More</p>
+                                <a href="/learn_more.pdf" target='_blank'><p className='font-[400] text-rose-600'>Learn More</p></a>
                             </div>
                         </div>
                     </div>
